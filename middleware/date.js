@@ -1,9 +1,10 @@
 const setDate = (req,res,next) => {
-    let date = new Date();
+    const date = new Date();
     req.date = date.toLocaleDateString();
+    console.log(req.date);
     next()
-}
+};
 
 module.exports = {
     setDate,
-}
+};

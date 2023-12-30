@@ -1,6 +1,6 @@
-
+const mongoose = require('mongoose'); // mongoose was not called upon
 const connection = process.env.DB;
-const collection = process.env;
+const collection = process.env.COLL; //missing "COLL" from .env.
 
 const db = async () => {
     try {

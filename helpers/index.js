@@ -1,13 +1,15 @@
-const errorHandling = (res,err) => {
-    return res.status(500).json({
-        ERROR: err.message
+const errorHandling = (res, error) => {
+    return (
+        res.status(500).json({
+        Error: error.message 
     })
+    )
 }
 
-const successHandling = (res,obj) => {
+const successHandling = (res, obj) => {
     return(
         res.status(200).json({
-            result: obj
+            results: obj
         })
     )
 }

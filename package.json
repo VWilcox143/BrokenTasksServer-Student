@@ -1,7 +1,7 @@
 {
   "name": "tasksbrokenapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "This application is BROKEN and needs you to fix the issues that are throughout the server build. The previous developer framed everything up but was put on another task before they were able to clean this up and connect everything as needed. This is where you come in...",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
